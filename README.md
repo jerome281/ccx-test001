@@ -1,4 +1,4 @@
-## Asda A/B test
+## A/B test
 
 - Test URL: `https://direct.asda.com/george/women/dresses/coral-floral-angel-sleeve-mini-dress/GEM1129609,default,pd.html?cgid=D1M1G20C1`
 
@@ -37,3 +37,5 @@
 - For the Javascript please use the code from this file `js/index.js`.
 
 - For the CSS please use the code from this file `css/style.css`.
+
+- I've also added my SCSS file just for reference located here `css/style.scss`.
