@@ -30,12 +30,12 @@
 
 ### To test in browser console
 
-- Please open the browser console and paste the code from this file `js/index-with-css.js` and press enter.
+- Please open the browser console and paste the code from this file `js/index-with-css.js` and press enter
 
 ### To test inside the CRO tool editor
 
-- For the Javascript please use the code from this file `js/index.js`.
+- For the Javascript please use the code from this file `js/index.js`
 
-- For the CSS please use the code from this file `css/style.css`.
+- For the CSS please use the code from this file `css/style.css`
 
-- I've also added my SCSS file just for reference located here `css/style.scss`.
+- I've also added my SCSS file just for reference located here `css/style.scss`
