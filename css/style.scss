@@ -1,0 +1,61 @@
+// Brand colors
+$grey: #cbcbcb;
+$darkGrey: #191919;
+
+.ccx-test001 {
+  // Hide "More similar items" section
+  .image-slider-container {
+    .sidebar-wrapper {
+      display: none;
+    }
+  }
+
+  .product-image-slider-wrap {
+    display: flex;
+    gap: 5px;
+    width: calc(100% - 298px);
+    .swiper-button-prev {
+      margin-left: 14px;
+    }
+  }
+
+  .side-panel {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .icon-zoom-in {
+      cursor: pointer;
+      margin-top: auto;
+      .icon-text {
+        display: none;
+      }
+    }
+    &__container {
+      border-right: 1px solid $grey;
+      padding-right: 10px;
+      margin-top: 4px;
+      margin-right: 30px;
+    }
+    &__thumbnails {
+      .swiper-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .swiper-slide {
+          &.active {
+            .product__image {
+              border-color: $darkGrey;
+            }
+          }
+          .product__image {
+            cursor: pointer;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
